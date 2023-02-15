@@ -1,0 +1,82 @@
+<?php
+
+</php>
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Register</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+    integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<!-- Registration forms -->
+
+<body
+  style="background-color: rgb(42, 128, 3);  background-size: contain;overflow:hidden;text-align: center; padding-left: 25%;padding-right: 25%; ">
+  <form class="w3-container w3-center w3-card-4 bg-light " action="register.php">
+
+
+    <h2>Registration Details </h2>
+    <p>Please fill in your details below.</p>
+
+    <p><label>First Name</label>
+      <input class="w3-input w3-border w3-hover-indigo" name="first" type="text">
+    </p>
+
+    <p><label>Last Name</label>
+      <input class="w3-input w3-border w3-hover-indigo " name="last" type="text">
+    </p>
+
+    <p>Choose your Gender</p>
+    <form action="/action_page.php">
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label><br>
+      </p>
+
+      <p>Choose Identification Document</p>
+
+      <select class="w3-select" name="option">
+        <option value="" disabled selected></option>
+        <option value="1">National ID</option>
+        <option value="2">Passport</option>
+        <option value="3">Birth Certificate</option>
+      </select>
+
+      <p><label>ID NO.</label>
+        <input class="w3-input w3-border w3-hover-indigo " name="ID NO." type="text">
+      </p>
+
+      <p><label>Email</label>
+        <input class="w3-input w3-border w3-hover-indigo " size="25" name="email" type="text">
+      </p>
+
+      <p><label>Password</label>
+        <input class="w3-input w3-border w3-hover-indigo" name="password" type="password">
+      </p>
+
+      <p><label>Confirm Password</label>
+        <input class="w3-input w3-border w3-hover-indigo" name="password" type="password">
+      </p>
+    </form>
+
+    <p><button class="w3-btn w3-hover-orange w3-blue">Register</button></p>
+
+    <a href="./new.html">Back to Home</a></span>
+
+
+    </div>
+
+
+
+</body>
