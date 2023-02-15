@@ -19,8 +19,8 @@
  <p class="logo" >VAXSYM</p>
   <ul>
    
-    <li><a href="">Home</a></li>
-    <li ><a href=''>CovidStats</a></li>
+    <li><a href="/CVMS/new1.php">Home</a></li>
+    <li ><a href='https://covid.cdc.gov/covid-data-tracker/#datatracker-homeT'>CovidStats</a></li>
     <li ><a  href="">Help</a></li>
     <li ><a href="/CVMS/dummy/reg.php">Register</a></li>
     <li ><a href="/CVMS/dummy/login.php">Login</a></li>
